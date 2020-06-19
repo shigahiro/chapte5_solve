@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: underline;
+	color: purple;
+	border-bottom: 1px solid;
+	border-color: gray;
+}
+
+nav {
+	color: purple;
+	text-align: center;
+	border-bottom: 1px solid;
+	border-color: gray;
+}
+
+.nav-list-item {
+	padding: 15px 20px;
+	display: inline-block;
+	text-decoration: underline;
+}
+
+.main {
+	width: 800px;
+	margin: 50px auto;
+}
+
+.line {
+	text-align: center;
+}
+
+.box2 {
+	float: left;
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+.one {
+	background-color: #e6ffe9;
+}
+
+.two {
+	background-color: #cdffd3;
+}
+
+.three {
+	background-color: #aeffbd;
+}
+
+.four {
+	background-color: #93ffab;
+}
+
+.five {
+	background-color: #f3ffd8;
+}
+
+.six {
+	background-color: #edffbe;
+}
+
+.seven {
+	background-color: #e9ffa5;
+}
+
+.eight {
+	background-color: #e4ff8b;
+}
+
+.nine {
+	background-color: #d9e5ff;
+}
+
+.ten {
+	background-color: #bad3ff;
+}
+
+.eleven {
+	background-color: #a4c6ff;
+}
+
+.twelve {
+	background-color: #8eb8ff;
+}
+
+footer {
+	height: 120px;
+	background-color: gray;
+	text-align: center;
+	line-height: 120px;
+	color: white;
+}
